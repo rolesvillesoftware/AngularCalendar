@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { MdrxCalendarModule } from '../mdrxCalendar/mdrxCalendar.module';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MdrxCalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
